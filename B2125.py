@@ -8,7 +8,7 @@ while i < c:
 
 max_score = 0
 first = ''
-for key,value in classmate.items():
+for key, value in classmate.items():
     if value > max_score:
         max_score = value
         first = key
